@@ -1,1 +1,15 @@
 $ composer create-project laravel/laravel testetecnico
+$ git init
+$ git add .
+$ git commit -m 'Initial Commit'
+$ composer require laravel/jetstream
+$ php artisan jetstream:install livewire
+$ npm install
+$ npm run dev
+$ php artisan key:generate
+# Criar o banco de dados: testetecnico
+$ Alterar: DB_DATABASE=testetecnico
+$ Alterar: DB_USERNAME=root
+$ Alterar: DB_PASSWORD=pAia1RkewjmwowTO
+$ php artisan migrate
+$ php artisan serve
