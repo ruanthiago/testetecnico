@@ -39,3 +39,7 @@ Passo a passo:
 <p> $ php artisan migrate </p>
 <p> $ php artisan db:seed </p>
 <p> $ php artisan serve </p>
+
+
+Url: https://github.com/ruanthiago/testetecnico
+Senha DB: pAia1RkewjmwowTO

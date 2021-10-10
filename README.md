@@ -1,4 +1,4 @@
-<h3>Passo a passo para estar ultilizando o projeto</h3>
+<h3>Instalação do Projeto</h3>
 <p> $ git clone git@github.com:ruanthiago/testetecnico.git </p>
 <p> $ cd testetecnico </p>
 <p> $ composer install </p>
@@ -12,4 +12,10 @@
 <p> $ php artisan migrate </p>
 <p> $ php artisan db:seed </p>
 <p> $ php artisan serve </p>
-### carros
+
+<h3>Ultiização do Projeto</h3>
+<p> Clique em <strong>Log in</strong></p>
+<p> E-mail de acesso: <strong>admin@admin.com</strong></p>
+<p> Senha de acesso: <strong>admin</strong></p>
+<p> Caso seja de interesse, digite o que deseja capturar. Ex.: <strong>audi</strong></p>
+<p> Clique no botão <strong>Capturar</strong></p>
