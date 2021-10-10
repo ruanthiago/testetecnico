@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CarroController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +18,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+/* Redireciona */
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
+    return redirect()->route('carros');
 })->name('dashboard');
+
+/* Rotas relacionados ao controller: Carro */
+Route::middleware(['auth:sanctum', 'verified'])->get('/carros', [CarroController::class, 'index'])->name('carros');
+Route::middleware(['auth:sanctum', 'verified'])->post('/carros/capturar', [CarroController::class, 'capturar'])->name('carros-capturar');
+Route::middleware(['auth:sanctum', 'verified'])->delete('/carros/{id}/delete', [CarroController::class, 'delete'])->name('carros-delete');

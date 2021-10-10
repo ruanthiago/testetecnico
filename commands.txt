@@ -2,6 +2,7 @@ $ composer create-project laravel/laravel testetecnico
 $ git init
 $ git add .
 $ git commit -m 'Initial Commit'
+$ composer install
 $ composer require laravel/jetstream
 $ php artisan jetstream:install livewire
 $ npm install
@@ -12,4 +13,13 @@ $ Alterar: DB_DATABASE=testetecnico
 $ Alterar: DB_USERNAME=root
 $ Alterar: DB_PASSWORD=pAia1RkewjmwowTO
 $ php artisan migrate
+$ php artisan db:seed
 $ php artisan serve
+
+Login:
+    E-mail: admin@admin.com
+    Senha: admin
+
+
+- Baixa o projeto
+-
